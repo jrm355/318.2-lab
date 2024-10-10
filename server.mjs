@@ -34,11 +34,11 @@ app.get('/about', (req, res) => {
 });
 // middleware
 app.use((err, req, res, next) => {
-    console.error(err.stack);  // Log the error stack trace for debugging
+    console.error(err.stack); 
     res.status(500).render('error', { 
         title: 'Error',
         message: 'you done messed up',
-        error: err.message  // You can customize this to show less or more info based on the environment
+        error: err.message  
     });
 });
 
