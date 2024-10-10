@@ -1,0 +1,12 @@
+1 server.mjs file
+2 npm init -y 
+3 correct package.json
+4 npm i express    npm express -v   download express
+5 import express at top of package
+6 initialize express into a variable
+
+import express from 'express'
+
+7 initialize express into a variable
+const app = express()
+const PORT = 3000
